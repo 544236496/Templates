@@ -16,6 +16,6 @@ public class MainActivity extends BaseActivity {
         super.onCreate(savedInstanceState);
         Fabric.with(this, new Crashlytics());
         setContentView(R.layout.activity_main);
-        Toast.makeText(this, "测试上传项目到github", Toast.LENGTH_SHORT).show();       
+        Toast.makeText(this, "测试上传项目到github", Toast.LENGTH_SHORT).show();
     }
 }
